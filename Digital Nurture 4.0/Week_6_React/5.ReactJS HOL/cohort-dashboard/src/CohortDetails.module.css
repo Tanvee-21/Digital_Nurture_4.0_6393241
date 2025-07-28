@@ -1,0 +1,32 @@
+/* CohortDetails.module.css */
+
+.box {
+  width: 320px;
+  display: inline-block;
+  margin: 15px;
+  padding: 15px 25px;
+  border: 1px solid #444;
+  border-radius: 12px;
+  background-color: #f9f9f9;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.box:hover {
+  transform: scale(1.02);
+}
+
+dt {
+  font-weight: 600;
+  color: #333;
+}
+
+.ongoing {
+  color: green;
+  font-weight: bold;
+}
+
+.completed {
+  color: blue;
+  font-weight: bold;
+}
